@@ -57,6 +57,42 @@ const cars: Car[] = [
     bodyType: 'Седан',
     image: 'https://cdn.poehali.dev/projects/56d6bea1-fa45-41d2-86b2-445d0fa33835/files/564ae7c9-b4f4-4708-a94a-82fe5925b3c0.jpg',
     status: 'preorder'
+  },
+  {
+    id: 4,
+    brand: 'Porsche',
+    model: '911 Turbo S',
+    year: 2024,
+    price: 18900000,
+    fuel: 'Бензин',
+    transmission: 'Автомат',
+    bodyType: 'Купе',
+    image: 'https://cdn.poehali.dev/projects/56d6bea1-fa45-41d2-86b2-445d0fa33835/files/124e87a6-5573-4653-bd4d-d8e93ad726ba.jpg',
+    status: 'available'
+  },
+  {
+    id: 5,
+    brand: 'Range Rover',
+    model: 'Autobiography',
+    year: 2024,
+    price: 16500000,
+    fuel: 'Бензин',
+    transmission: 'Автомат',
+    bodyType: 'Внедорожник',
+    image: 'https://cdn.poehali.dev/projects/56d6bea1-fa45-41d2-86b2-445d0fa33835/files/75370568-65fa-4ff8-86e3-e1d7783e6263.jpg',
+    status: 'available'
+  },
+  {
+    id: 6,
+    brand: 'Bentley',
+    model: 'Continental GT',
+    year: 2024,
+    price: 21200000,
+    fuel: 'Бензин',
+    transmission: 'Автомат',
+    bodyType: 'Купе',
+    image: 'https://cdn.poehali.dev/projects/56d6bea1-fa45-41d2-86b2-445d0fa33835/files/4f6afd69-a8ef-4925-b290-aa94d5ca6a66.jpg',
+    status: 'preorder'
   }
 ];
 
@@ -145,6 +181,9 @@ const Index = () => {
                     <SelectItem value="BMW">BMW</SelectItem>
                     <SelectItem value="Mercedes-Benz">Mercedes-Benz</SelectItem>
                     <SelectItem value="Audi">Audi</SelectItem>
+                    <SelectItem value="Porsche">Porsche</SelectItem>
+                    <SelectItem value="Range Rover">Range Rover</SelectItem>
+                    <SelectItem value="Bentley">Bentley</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -188,7 +227,8 @@ const Index = () => {
                     <SelectItem value="all">Любая</SelectItem>
                     <SelectItem value="0-10000000">До 10 млн</SelectItem>
                     <SelectItem value="10000000-15000000">10-15 млн</SelectItem>
-                    <SelectItem value="15000000-999999999">Свыше 15 млн</SelectItem>
+                    <SelectItem value="15000000-20000000">15-20 млн</SelectItem>
+                    <SelectItem value="20000000-999999999">Свыше 20 млн</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
